@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/forms.css">
+    <title>Document</title>
+</head>
+<body class="bg-dark">
+    <form class="formSection my-auto " onsubmit="return false ;">
+        <div id="forms" class="col-lg-4 col-10 mx-auto forms  p-5 ">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+                <input type="text" class="form-control text-white bg-dark" id="InputEmail1" placeholder="Email id">
+                <p id="error" class="text-danger mb-0"></p>
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="InputPassword1" class="form-label text-white">Password</label>
+                <input type="password" class="form-control text-white bg-dark" id="InputPassword1">
+                <p id="pswdError" class="text-danger mb-0"></p>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input text-white" id="Check1" onClick="showPassword()">
+                <label class="form-check-label text-white" for="Check1">show Password</label>
+              </div>
+              <button  type="submit"  id='loginBtn' class=" col-12 btn btn-outline-primary button">Submit</button>
+        </div>
+      </form>
+      <script src="./js/form.js"></script>
+</body>
+</html>

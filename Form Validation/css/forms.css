@@ -1,0 +1,15 @@
+.forms{
+    border: 2px solid #1C375E;
+}
+.formSection{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#InputPassword1,#InputEmail1{
+    border:none;
+    border-bottom: 2px solid #1C375E;
+}
+.green{
+    border: 2px solid rgb(122, 245, 122);
+}
