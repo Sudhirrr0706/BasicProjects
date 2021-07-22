@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+body{
+    font-family: 'Sen', sans-serif;
+}
+
+.lite-gray-color{
+    color: #8491A0;
+}
+.bg-black{
+    background-color: black;
+}
+
+/* Navigation  Bar */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+.custom-toggler.navbar-toggler {
+    border-color: rgb(61, 47, 73);
+  } 
+.custom-nav  a{
+    color: white;
+    transition: 0.3s;
+}
+.custom-nav :hover{
+    color: #4ee6a6;
+}
+/* Section 1: Introductiopn */
+.bg-colors{
+    height: 100vh;
+}
+.bg-colors div:nth-child(1){
+    background-color: black;
+}
+.bg-colors div:nth-child(2){
+    background-color: rgb(24, 24, 35);
+}
+h1 strong{
+  
+    font-size: 74px
+}
+h1{
+    font-size: 74px
+}
+.main{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display:flex ;
+    align-items: center;
+}
+.hero-details{
+    position: relative;
+    left: -6vw;
+}
+
+
+/* Section 2 */
+
+
+.work-title{
+    font-size: 16px;
+    font-weight: 700;
+}
+.section-2 div:nth-child(1){
+    background-color: black;
+}
+.num-head{
+    font-size: 7rem;
+    line-height: 7rem;
+}
+.company-head{
+    font-size: 24px;
+    font-weight: 700;
+}
+.work-detail{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.work-description{
+  font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+}
+
+/* Section 3 Article */
+.article-content{
+    background-color: #FDF3DA;
+}
+.content h2{
+    font-size: 3.5rem;
+    font-weight:700 ;
+}
+.article-button{
+    text-decoration: none;
+    font-weight: 400;
+    color: #000;
+    transition: 0.3s;
+    transform: scale(1);
+}
+.article-button:hover{
+    border: 1px solid #5221E6;
+    background-color: #5221E6;
+    color: white;    
+}
+
+.content p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #5b6876;
+}
+
+/* Section 4 Skill set */
+.skill-set-head{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.skill-inner{
+    font-size: 18px;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+.skills h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+.skills p{
+    font-size:16px ;
+    font-weight: 400;
+    color: #8491A0;
+    line-height: 1.5rem;
+}
+.logos{
+    border: 1px solid #333333;
+}
+
+/* Section 4 Work Experience */
+
+.projects-description{
+    background-color: #181823;
+}
+.arrow-mark{
+    background-color: #5221E6;
+}
+.work-details{
+    font-size: 18px;
+    font-weight: 400;
+}
+.work-head{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.work-sub-head{
+    font-size: 16px;
+    font-weight: 400;
+}
+.custom-work-button{
+    height: 50vh;
+    
+}
+.button-stytle{
+    border: 1px solid #5221E6;
+    transition: 0.3s;
+}
+.button-stytle:hover{
+    background-color:#5221E6;
+    box-shadow: 0 0 20px #5221E6;
+}
+
+/* Section 5 Instagram */
+.social-content{
+    background-color: #fbe4ff;
+}
+.social-content h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.social-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #5b6876;
+}
+
+/* Contact */
+
+.contact h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.contact p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #5b6876;
+}
+
+.form label{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.form input, .form textarea{
+    background-color: #181823;
+    border: none;
+    color: white;
+}
+.form-button{
+    background-color: #5221E6;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* Footer section */
+.footer-section{
+    background-color: #181823;
+}
+
+.footer-link a{
+    text-decoration: none;
+    color: white;
+}
+.footer-link a:hover{
+    color: #4ee6a6;
+}
+.footer-link li{
+    list-style: none;
+}
+
+/* Bigger screen  */
+@media only screen and (min-width:2560px) {
+
+    /* Section 1 */
+   
+
+    .hero-details{
+        position: relative;
+        left: -5vw;
+    }
+    .hero-details h1{
+        font-size: 86px;
+    }
+    .hero-details h1 strong{
+        font-size: 86px;
+    }
+    .hero-detail{
+        font-size: 26px;
+    }
+    /* Section 2 */
+    .work-title{
+        font-size: 5rem;
+    }
+    .num-head{
+        font-size: 9rem;
+    }
+    .work-detail{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    /* Section 3 */
+    
+    .content h2{
+        font-size: 6.5rem;
+    }
+    .content p{
+        font-size: 2rem;
+    }
+    .article-button{
+        font-size: 2rem;
+    }
+
+    /* Section 4 */
+    .skill-set-head{
+        font-size: 8rem;
+    }
+    .skill-inner{
+        font-size: 30px;
+        line-height: 2.5rem;
+    }
+    .skills h2{
+        font-size: 40px;
+    }
+    .skills p{
+        font-size:28px ;
+        line-height: 2.5rem;
+    }
+
+}
+    
+/* Laptop screen */
+@media only screen and (max-width:1440px)  {
+    .hero-details{
+        position: relative;
+        left: -7vw;
+    }
+    .hero-details  h1{
+        font-size: 70px;
+    }
+    .hero-details h1 strong{
+        font-size: 70px;
+    }
+    .hero-detail{
+        font-size: 16px;
+    }
+}
+
+/* Mini Laptop Screen */
+@media only screen and (max-width:1024px)  {
+    .hero-details h1{
+        font-size: 48px;
+    }
+    .hero-details   h1 strong{
+        font-size: 48px;
+    }
+    .hero-detail{
+        font-size: 12px;
+    }
+
+    .work-title{
+        font-size: 12px;
+    }
+    .num-head{
+        font-size: 5rem;
+    }
+    .work-detail{
+        font-size: 16px;
+        line-height: 1.5rem;
+    }
+    .work-description{
+        font-size: 2rem;
+        line-height: 2.5rem;
+
+    }
+}
+
+/* Tablet and mobile */
+@media only screen and (max-width:768px)  {
+    .intro-section{
+        padding: 20px;
+    }
+    .hero-details{
+        position: relative;
+        left: 0;
+    }
+    .hero-details h1{
+        padding-top: 2vh;
+        font-size: 40px;
+    }
+   .hero-details h1 strong{
+        font-size: 40px;
+    }
+    .hero-detail{
+        font-size: 15px;
+        padding-top: 1vh;
+    }
+
+    .work-title{
+        font-size: 16px;
+    }
+    .num-head{
+        font-size: 6rem;
+    }
+    .work-detail{
+        font-size: 18px;
+        line-height: 1.8rem;
+    }
+    .work-description{
+        font-size: 2.5rem;
+        line-height: 3rem;
+
+    }
+   
+}
+
+/* Smaller screen Mobile */
+@media only screen and (max-width:425px){
+     /* Section 3 */
+    
+    .content h2{
+        padding-top: 2vh;
+        font-size: 1.8rem;
+    }
+    .content p{
+        font-size: 14px;
+    }
+    .article-button{
+        font-size: 1rem;
+    }
+    .contact-head{
+        font-size: 20px;
+    }
+
+   
+}
+
