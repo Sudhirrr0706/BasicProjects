@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Clone</title>
+      <link rel="shortcut icon" href="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\boot.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap" rel="stylesheet">
+  </head>
+<style>
+  *{
+    scroll-behavior: smooth;
+  }
+  /* Custom-Nav */
+    #custom-left-nav {
+        letter-spacing: 0.5px;
+        font-size: 32px;
+        color: #5f687b;
+        font-weight: bold;
+        font-family: "Raleway", sans-serif;
+    }
+    /* Nav-Hover */
+    #effect :hover{
+       color: #16df7e;
+   }
+   #button{
+      transition: 0.5s;
+      color: #858ea1;
+      border: 1px solid #858ea177;
+      font-weight: bold;
+      font-family: "Raleway", sans-serif;
+   }
+   #button:hover{
+        color: white;
+        background-color: #007aff;
+    }
+    .custom-nav{
+        font-family: "Raleway", sans-serif;
+        transition: 0.5s;
+   }
+
+   /* Section 1 */
+    .sec-1{
+        margin: 15vh 0 0 0;
+        font-family: "Raleway", sans-serif;
+   }
+
+   .sec-1 .p1{
+     color: #3e4450;
+     line-height: 56px;
+     letter-spacing: 1px;
+     font-size: 45px;
+     text-align: left;
+   }
+
+   .sec-1 .p2{
+      color: #858ea1;
+      font-size: 22px;
+      font-family: "Raleway", sans-serif;
+   }
+   .custom-button{
+       background-color: #16df7e;
+       color: white;
+       font-family: "Raleway", sans-serif;
+       border-radius: 4px;
+       font-size: 16px;
+       letter-spacing: 1px;
+       transition: 0.5s;
+       box-shadow: 0 8px 28px rgb(22 223 126 / 45%);
+       
+   }
+   .custom-button:hover{
+       background-color: #0d6efd;
+       color: white;
+       box-shadow:0 0 25px #0d6efd;
+   }
+   .custom-play-text{
+       text-decoration: none;
+        color: #5f687b;
+        font-size: 16px;
+        transition: 0.5s;
+        font-family: "Raleway", sans-serif;
+   }
+   .custom-play-text:hover{
+       color:  #16df7e;
+   }
+   /* Image style */
+   .custom-img{
+       height: 80vh;
+       
+   }
+   #animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+   }
+   @-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+   
+
+   /* Section 2 Custom-cards */
+    .card-headers{
+      text-decoration: none;
+    }
+  
+   .custom-cards{
+    height: 30vh;
+   }
+   .card-bg{
+     background-color: rgba(241, 241, 243, 0.384);
+     border: 1px solid  rgba(234, 234, 241, 0.521);
+   }
+   .custom-head{
+    font-family: "Raleway", sans-serif;
+     color:#5f687b;
+     transition: 0.5s;
+   }  
+   .custom-head:hover{
+    color: #16df7e;
+   } 
+   .custom-description{
+      color:  #5f687b;
+      font-size: 15px;
+   }
+
+  
+   
+
+   /* section 3 */
+   .img-2{
+     height: 55vh;
+   }
+   .sec-3-head{
+    font-size: 32px;
+    font-weight: 700;
+    color: #5f687b;
+    font-family: "Raleway", sans-serif;
+   }
+  .checked{
+    font-family: "Raleway", sans-serif;
+    color: #5f687b;
+   }
+   .sec3-foot{
+    font-family: "Raleway", sans-serif;
+    color: #5f687b;
+    letter-spacing:0.5px;
+   }
+   .num{
+    font-size: 48px;
+    color: #16df7e;
+    font-weight: 700;
+   }
+   .about{
+     text-align: center;
+     font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+   }
+
+   /* section 5 */
+
+   .custom-services,.custom-testmonial,.section8{
+     background-color: #f9f9fa;
+     color: #444444;
+    
+   }
+   .service-head,.testmonial-head,.team-head{
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #5f687b;
+    text-align: center;
+   }
+   .service-shadow,.portfolio-shadow,.testmonial-shadow,.teams-head-shadow,.contact-shadow{
+    font-family: "Open Sans", sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    position: relative;
+    top: 6vh;
+    text-align: center;
+    color: rgba(201, 196, 196, 0.205);
+   }
+   .box-1{
+     height: 45vh;
+     background-color: white;
+   }
+   .serviceCard-head, .inner-portfolio,.contact-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #5f687b;
+    text-align: center;
+    transition: 0.5s;
+   }
+   .head-link{
+      text-decoration: none;
+   }
+   .serviceCard-head:hover{
+    color: #16df7e;
+   }
+   .sertvice-description{
+     text-align: center;
+   }
+   .custom-portfolio, .custom-testmonial{
+     text-align: center;
+   }
+   .porfolio-description,.testmonial-description,.contact-description{
+      text-align: center;
+      font-family: "Open Sans", sans-serif;
+      color: #444444;
+   }
+  li{
+   list-style: none;
+ }
+ .port-link{
+  text-decoration: none;
+  font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    color: #444444;
+    transition: 0.3s;
+ }
+ .port-link:hover{
+   color: #16df7e;
+ }
+ .testmonial-section{
+  background-color: #f9f9fa;
+ }
+.slider-img1{
+  border-radius: 50%;
+  border: 8px solid white;
+}
+.img1-desc{
+  text-align: center;
+}
+.img1-disc{
+    height: 30vh;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.testmoni-img1,.testmoni-img2,.testmoni-img3{
+  height: 30vh;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.img-testi{
+  height: 15vh;
+  width: auto;
+  border-radius: 50%;
+  border: 8px solid white;
+  position: relative;
+  top: -7vh;
+}
+.card1-desc{
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  color: #444444;
+}
+.section7{
+  background-color:#16df7e;
+  color: white;
+  height: 35vh;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+.section7-button{
+    color: white;
+    border: 1px solid white;
+    
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    letter-spacing: 1px;
+}
+.section7-button:hover{
+  background-color: #206bfb;
+  color: white;
+  border: 1px solid #206bfb;
+}
+.sec7-head{
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+    font-size: 28px;
+    font-weight: 700
+}
+.sec7-des{
+  color: #fff;
+
+}
+.up-arrow.active{
+  visibility: visible;
+    opacity: 1;
+}
+#back-to-top{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  transition: 1.5s;
+}
+
+/* Section 8 */
+
+.teams-head{
+  text-align: center;
+}
+.team-description{
+  color: #444444; 
+}
+.custom-team-card{
+  border: none;
+ 
+}
+.custom-card-body{
+  text-align: center;
+}
+.custom-desc-team{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  color: #aaaaaa;
+
+}
+
+.custom-team-title{
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+}
+.sub-title{
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+/* Section 8 Contact */
+.contact-head{
+  text-align: center;
+}
+.location,.contact-form {
+  background-color: #f9f9fa;
+  border-top: 3px solid #16df7e;
+  border-bottom: 3px solid #16df7e;
+}
+
+
+
+.location-heads{
+    font-size: 22px;
+    font-weight: 600;
+    color: #5f687b;
+    font-family: "Raleway", sans-serif;
+}
+.location-details{
+    font-size: 14px;
+    color: #949cac;
+    font-family: "Open Sans", sans-serif;
+}
+.name,.mail,.subject{
+    height: 6vh;
+    font-size: 14px;
+    border-radius: 4px;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid #949cac;
+}
+.mail-label,.name-label,.subject-label,.message-label{
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+
+}
+.contact-button{
+  text-align: center;
+}
+.contact-button-style{
+  background-color: #16df7e;
+  color: white;
+  transition: 0.5s;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 4px;
+}
+.contact-button-style:hover{
+  background-color: #007aff;
+  color: white;
+}
+/* Footer */
+
+.footer{
+  background-color: #f3f4f6;
+}
+.footer-top{
+  text-align: center;
+}
+.foot-head{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #5f687b;
+}
+.subscriber{
+    background-color: white;
+}
+.subscribe-mail{
+  border: none;
+}
+.subscibe-button{
+  position: relative;
+  right: -1vw;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+
+.foot-discription{
+  font-style: italic;
+  color: #5f687b;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+.sub-label{
+  border: none;
+}
+.sub-button{
+  border: none;
+  background-color: #16df7e;
+  color: white;
+  transition: 0.5s;
+  border-radius: 0 4px 4px 0;
+}
+.sub-button:hover{
+  background-color: #007aff;
+  color: white;
+}
+.footer-bottom{
+    text-align: left;
+}
+.copyright{
+    color: #5f687b;
+    font-size: 14px;
+}
+.foot-link{
+  text-decoration: none;
+  color: #16df7e;
+  transition: 0.5s;
+}
+.foot-link:hover{
+  color: #007aff;
+}
+
+</style>
+<body>
+  
+    <!-- Navigation bar -->
+    <nav id="top" class="fixed-top bg-white">
+      <div class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a id="custom-left-nav" class="navbar-brand fs-2" href="#">eNno</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+              <ul id="effect" class=" navbar-nav ">
+                <li class="nav-item ">
+                  <a class="custom-nav fw-bold nav-link active fs-6 px-3 " aria-current="page" href="#redirect-home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="custom-nav fw-bold nav-link fs-6 px-3" href="#redirect-about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="custom-nav fw-bold nav-link fs-6 px-3" href="#redirect-service">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="custom-nav fw-bold nav-link fs-6 px-3" href="#ridirect-portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="custom-nav fw-bold nav-link fs-6 px-3" href="#ridirect-team">Team</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="custom-nav fw-bold nav-link dropdown-toggle fs-6 px-3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown link
+                  </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="custom-nav fw-bold nav-link fs-6 px-3" href="#redirect-contact">Contact</a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <a href="#redirect-home" id="button" class="btn  btn-sm px-3 py-2" role="button">Getting Started</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section 1 : Introduction and image -->
+    <section id="redirect-home" class=" d-flex flex-wrap-reverse align-items-center justify-content-center  mb-5">
+        <div class="">
+            <div  class="sec-1 col-lg-8 col-md-12 col-12">
+                <p class="p1 fw-bold">Elegant and creative solutions</p>
+                <p class="p2 fw-bolder">We are team of talented designers making websites with Bootstrap</p>
+            </div>
+            <div class="d-flex">
+                <a class="custom-button btn btn-white px-5 py-2 fw-bold"  href="">
+                    Get started
+                </a>
+
+                <a class="custom-play-text d-flex align-items-center" href="">
+                    <img class="mx-3  custom-play" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\img\play-button.png" alt="Play icon">Watch Video
+                </a>  
+            </div>
+        </div>
+
+         <div class="d-flex justify-content-center sec-2 col-lg-4 col-md-12 col-12">
+            <img id="animated" class="custom-img " src="https://bootstrapmade.com/demo/templates/eNno/assets/img/hero-img.png" alt="Nothing">
+        </div>
+
+    </section>
+    
+    
+
+    <!-- Section 2 : Cards-->
+    <div class="container-fluid d-flex justify-content-center">
+    <div class=" row justify-content-center mb-4">
+      <div class="card-bg card text-white mb-4 p-3 mx-4 col-lg-3 col-md-6 col-12">
+        <div class="card-body px-1 ">
+          <img class="my-3" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\notebook-computer .png" alt="logo">
+          <a class="card-headers" href=""><h5 class="custom-head card-title">Lorem Ipsum</h5></a>
+          <p class="custom-description card-text my-3 ">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+        </div>
+      </div>
+
+      <div class="card-bg card text-white mb-4 p-3 mx-4 col-lg-3  col-md-6 col-12">
+        <div class="card-body px-1">
+          <img class="my-3" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\to-do-list.png" alt="Logo">
+          <a class="card-headers" href=""><h5 class="custom-head card-title">Dolor Sitema</h5></a>
+          <p class="custom-description card-text my-3">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata.</p>
+        </div>
+      </div>
+
+      <div class="card-bg card text-white mb-4 p-3 mx-4 col-lg-3  col-md-6 col-12">
+        <div class="card-body px-1">
+          <img class="my-3" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\report.png" alt="Logo">
+          <a class="card-headers" href=""><h5 class="custom-head card-title">Sed ut perspiciatis</h5></a>
+          <p id="redirect-about" class="custom-description card-text my-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        </div>
+      </div>
+    </div>
+    </div>
+   
+
+    <!-- Section 3 -->
+
+    <section  class="d-flex flex-wrap justify-content-center container mb-5">
+      <div class="container d-flex justify-content-center sec-2 col-lg-6 col-md-12 col-12">
+          <img class="img-2" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/about.png" alt="">
+      </div>
+      <div class="col-lg-6 col-md-8 col-12">
+        <p class="sec-3-head" >Voluptatem dignissimos provident quasi corporis voluptates</p>
+        <p class="fst-italic" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="checked ">
+          <img src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\checked.png" alt="logo">
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+        </p>
+        <p class="checked ">
+          <img src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\checked.png" alt="logo">
+          Duis aute irure dolor in reprehenderit in voluptate velit
+
+        </p>
+        <p class="checked ">
+          <img src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\checked.png" alt="logo">
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda
+
+        </p>
+        <p class="sec3-foot ">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+
+    </section>
+
+    <!-- section 4  -->
+    <section  class="d-flex container flex-wrap justify-content-evenly my-5">
+
+        <div class="my-5 ">
+          <p class="num">232</p>
+          <p class="about" >Clients</p>
+        </div>
+
+        <div class="my-5 ">
+          <p class="num">521</p>
+          <p class="about">Projects</p>
+        </div class="my-5">
+
+        <div class="my-5 ">
+          <p class="num">1463</p>
+          <p class="about">Hours Of Support</p>
+        </div>
+
+        <div class="my-5 ">
+          <p class="num">15</p>
+          <p class="about">Hard Workers</p>
+        </div>
+      
+    </section>
+
+    <!-- Back to top  -->
+    <section class="up-arrow active d-flex justify-content-end ">
+
+      <a id="back-to-top" href="#top"><img src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\up-arrow.png" alt=""></a>
+    </section>
+
+      <!-- Section 5 Services-->
+      <section id="redirect-service" class="custom-services my-5 py-5">
+        <div class=d-flex>
+          <div class="col-12">
+            <div>
+              <span class="service-shadow d-flex justify-content-center">SERVICES</span>
+              <p class="service-head d-flex justify-content-center">SERVICES</p>
+            </div>
+            
+            <p class="d-flex justify-content-center">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+          </div>
+        </div>
+        
+        <div class="d-flex flex-wrap justify-content-evenly  my-5  ">
+            <!-- Card - 1 -->
+            <div class="box-1 col-lg-3  col-md-8 col-12  mt-5">
+              <div class="p-4 mt-4">
+                <div class="d-flex justify-content-center">
+                  <img class="logo" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\basketball-ball.png" alt="Logo">
+                </div>
+                <a class="head-link" href=""><p class="serviceCard-head d-flex justify-content-center mt-4">Lorem Ipsum</p></a>
+                <p class="sertvice-description p-0 ">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              </div>
+            </div>  
+
+            <!-- card - 2 -->
+            <div class="box-1 col-lg-3 mx-1 col-md-8 col-12  mt-5">
+              <div class="p-4 mt-4">
+                <div class="d-flex justify-content-center">
+                  <img class="logo" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\file.png" alt="Logo">
+                </div>
+                <a class="head-link" href=""><p class="serviceCard-head d-flex justify-content-center mt-4">Sed ut perspiciatis</p></a>
+                <p class="sertvice-description p-0 ">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              </div>
+            </div>
+
+            <!-- Card - 3 -->
+            <div class="box-1 col-lg-3  col-md-8 col-12  mt-5">
+              <div class="p-4 mt-4">
+                <div class="d-flex justify-content-center">
+                  <img class="logo" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\tools-and-utensils.png" alt="Logo">
+                </div>
+                <a class="head-link" href=""><p class="serviceCard-head d-flex justify-content-center mt-4">Magni Dolores</p></a>
+                <p class="sertvice-description p-0 ">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              </div>
+            </div>
+
+            <!-- Card - 4 -->
+            <div class="box-1 col-lg-3 col-md-8 col-12 my-5">
+              <div class="p-4 mt-4">
+                <div class="d-flex justify-content-center">
+                  <img class="logo" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\planet-earth.png" alt="Logo">
+                </div>
+                <a class="head-link" href=""><p class="serviceCard-head d-flex justify-content-center mt-4">Nemo Enim</p></a>
+                <p class="sertvice-description p-0 ">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              </div>
+            </div>
+
+            <!-- Card - 5 -->
+            <div class="box-1 col-lg-3 col-md-8 col-12 my-5">
+              <div class="p-4 mt-4">
+                <div class="d-flex justify-content-center">
+                  <img class="logo" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\monitor.png" alt="Logo">
+                </div>
+                <a class="head-link" href=""><p class="serviceCard-head d-flex justify-content-center mt-4">Dele cardo</p></a>
+                <p class="sertvice-description p-0 ">Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+              </div>
+            </div>
+
+            <!-- Card - 6 -->
+            <div class="box-1 col-lg-3 col-md-8 col-12 my-5">
+              <div class="p-4 mt-4">
+                <div class="d-flex justify-content-center">
+                  <img class="logo" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\india-gate.png" alt="Logo">
+                </div>
+                <a class="head-link" href=""><p class="serviceCard-head d-flex justify-content-center mt-4">Divera don</p></a>
+                <p class="sertvice-description p-0 ">Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              </div>
+            </div>
+
+        </div>
+      </section>
+
+      <!-- Section 6 Portfolio -->
+      <section id="ridirect-portfolio">
+        <div class="col-12">
+          <div class="custom-portfolio">
+            <span class="portfolio-shadow">PORTFOLIO</span>
+            <P class="inner-portfolio">PORTFOLIO</P>
+          </div>
+          <p class="porfolio-description">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+          <ul class="custom-portfolio-nav d-flex mt-3">
+            <li>
+              <a class="port-link mx-4" href="#">ALL</a>
+            </li>
+            <li>
+              <a class="port-link mx-4" href="#">APP</a>
+            </li>
+            <li>
+              <a class="port-link mx-4" href="#">CARD</a>
+            </li>
+            <li>
+              <a class="port-link mx-4" href="#">WEB</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Portfolio - image gallery -->
+        <div class="d-flex flex-wrap  justify-content-center">
+          <div class="col-lg-3 col-md-12 col-10 mb-4 mb-lg-0 mx-2">
+            <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt=""/>
+            <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-6.jpg" class="w-100 shadow-1-strong rounded mb-4" alt=""/>
+          </div>
+        
+          <div class="col-lg-3 col-md-12 col-10 mb-4 mb-lg-0 mx-2">
+            <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-2.jpg" class="w-100 shadow-1-strong rounded mb-4"alt=""/>
+            <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt=""/>
+            <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-9.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="">
+          </div>
+        
+          <div class="col-lg-3 col-md-12 col-10 mb-4 mb-lg-0 mx-2">
+            <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt=""/>
+            <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-4.jpg" class="w-100 shadow-1-strong rounded mb-4" alt=""/>
+            <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-7.jpg"  class="w-100 shadow-1-strong rounded mb-4" alt="">
+            <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-8.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="">
+          </div>
+        </div>3
+      </section>
+
+      <!-- Section 7  Testmonial -->
+      <section class="testmonial-section mt-5">
+        <div>
+          <div class="custom-testmonial">
+              <span class="testmonial-shadow ">TESTIMONIALS</span>
+              <p class="testmonial-head ">TESTIMONIALS</p>    
+              <p class="testmonial-description">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>     
+          </div>
+
+          <div id="carouselExampleControls" class="carousel slide bg-dark mt-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <!-- Slide 1 -->
+              <div class="carousel-item active mt-5">
+                <div class="d-flex justify-content-center align-items-center  my-5">
+                  <div class="card1-testi col-lg-3 col-md-12 col-12 mt-5">
+                    <div class="testmoni-img1  mx-2">
+                      <p class="card1-desc pt-5 px-4"> "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim. "</p>
+                    </div>
+                    <img class="img-testi ms-5" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/testimonials/testimonials-3.jpg" alt="imge">
+                  </div>
+      
+                  <div class="card1-testi col-lg-3 col-md-12 col-12 mt-5">
+                    <div class="testmoni-img1  mx-2">
+                      <p class="card1-desc pt-5 px-4"> "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim. "</p>
+                    </div>
+                    <img class="img-testi ms-5" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/testimonials/testimonials-2.jpg" alt="imge">
+                  </div>
+      
+                  <div class="card1-testi col-lg-3 col-md-12 col-12 mt-5">
+                    <div class="testmoni-img1  mx-2">
+                      <p class="card1-desc pt-5 px-4"> "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim. "</p>
+                    </div>
+                    <img class="img-testi ms-5" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/testimonials/testimonials-4.jpg" alt="imge">
+                  </div>
+                </div>          
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="carousel-item mt-5">
+                <div class="d-flex justify-content-center align-items-center  mt-5 my-5">
+                  <div class="card1-testi col-lg-3 col-md-12 col-12 mt-5">
+                    <div class="testmoni-img1  mx-2">
+                      <p class="card1-desc pt-5 px-4"> "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim. "</p>
+                    </div>
+                    <img class="img-testi ms-5" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/testimonials/testimonials-5.jpg" alt="imge">
+                  </div>
+      
+                  <div class="card1-testi col-lg-3 col-md-12 col-12 mt-5">
+                    <div class="testmoni-img1  mx-2">
+                      <p class="card1-desc pt-5 px-4"> "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim. "</p>
+                    </div>
+                    <img class="img-testi ms-5" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/testimonials/testimonials-1.jpg" alt="imge">
+                  </div>
+      
+                  <div class="card1-testi col-lg-3 col-md-12 col-12 mt-5">
+                    <div class="testmoni-img1  mx-2">
+                      <p class="card1-desc pt-5 px-4"> "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim. "</p>
+                    </div>
+                    <img class="img-testi ms-5" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/testimonials/testimonials-4.jpg" alt="imge">
+                  </div>
+                </div>          
+              </div>
+
+              <!-- Slide 3 --> 
+              <div class="carousel-item mt-5">
+                <div class="d-flex justify-content-center align-items-center  mt-5 my-5">
+                  <div class="card1-testi col-lg-3 col-md-12 col-12 mt-5">
+                    <div class="testmoni-img1  mx-2">
+                      <p class="card1-desc pt-5 px-4"> "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim. "</p>
+                    </div>
+                    <img class="img-testi ms-5" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/testimonials/testimonials-3.jpg" alt="imge">
+                  </div>
+      
+                  <div class="card1-testi col-lg-3 col-md-12 col-12 mt-5">
+                    <div class="testmoni-img1  mx-2">
+                      <p class="card1-desc pt-5 px-4"> "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim. "</p>
+                    </div>
+                    <img class="img-testi ms-5" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/testimonials/testimonials-2.jpg" alt="imge">
+                  </div>
+      
+                  <div class="card1-testi col-lg-3 col-md-12 col-12 mt-5">
+                    <div class="testmoni-img1  mx-2">
+                      <p class="card1-desc pt-5 px-4"> "Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim. "</p>
+                    </div>
+                    <img class="img-testi ms-5" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/testimonials/testimonials-4.jpg" alt="imge">
+                  </div>
+                </div>          
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>    
+     </section>
+
+     <!-- Section 7 -->
+     <section class="section7 d-flex justify-content-center align-items-center">
+      <div class="d-flex justify-content-center">
+        <div class="col-12 container mt-4">
+          <h3 class="sec7-head">Call To Action</h3>
+          <p class="sec7-des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a  class="section7-button btn btn-white px-5 py-2 fw-bold mt-3 "  href="">
+            Get started
+        </a>
+        </div>
+      </div>
+     </section>
+     
+     <!-- Section 8  Teams-->
+
+     <section id="ridirect-team" class="section8">
+      <div class="teams-head">
+        <div class="shadow-text">
+          <span class="teams-head-shadow">TEAM</span>
+          <P class="team-head">TEAM</P>
+        </div>
+        <p class="team-description">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+      </div>
+
+      <!-- cards -->
+      <div class="d-flex flex-wrap justify-content-center align-items-stretch flex-wrap p-4">
+        <div class="custom-team-card card col-lg-3 col-md-8 col-12 mx-3">
+          <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/team/team-1.jpg" class="card-img-top p-3" alt="...">
+          <div class="card-body custom-card-body">
+            <p class="card-title custom-team-title">Walter White</p>
+            <p class="card-subtitle mb-3 text-muted sub-title">Chief Executive Officer</p>
+            <p class="card-text custom-desc-team px-2">Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+            <div class="contact-logos d-flex justify-content-center">
+              <a class="mx-1 team-contact" href=""><img src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\twitter.png" alt=""></a>
+              <a class="mx-1" href=""><img src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\facebook.png" alt=""></a>
+              <a class="mx-1" href=""><img src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\instagram.png" alt=""></a>
+              <a class="mx-1" href=""><img src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\linkedin.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="custom-team-card card col-lg-3 col-md-8 col-12 mx-3">
+         
+          <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/team/team-2.jpg" class="card-img-top p-3" alt="...">
+          <div class="card-body custom-card-body">
+            <p class="card-title custom-team-title">Sarah Jhinson</p>
+            <p class="card-subtitle mb-3 text-muted sub-title">Product Manager</p>
+            <p class="card-text custom-desc-team px-2">Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus</p>
+           
+            <div class="d-flex justify-content-center">
+              <a class="mx-1" href=""><img src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\twitter.png" alt=""></a>
+              <a class="mx-1" href=""><img src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\facebook.png" alt=""></a>
+              <a class="mx-1" href=""><img src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\instagram.png" alt=""></a>
+              <a class="mx-1" href=""><img src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\linkedin.png" alt=""></a>
+            </div>
+          
+          </div>
+        </div>
+
+        <div class="custom-team-card card col-lg-3 col-md-8 col-12 mx-3">
+          <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/team/team-3.jpg" class="card-img-top p-3" alt="...">
+          <div class="card-body custom-card-body">
+            <p class="card-title custom-team-title">William Anderson</p>
+            <p class="card-subtitle mb-3 text-muted sub-title">CTO</p>
+            <p class="card-text custom-desc-team px-2">Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara</p>
+            <div class="d-flex justify-content-center">
+              <a class="mx-1" href=""><img src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\twitter.png" alt=""></a>
+              <a class="mx-1" href=""><img src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\facebook.png" alt=""></a>
+              <a class="mx-1" href=""><img src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\instagram.png" alt=""></a>
+              <a class="mx-1" href=""><img src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\linkedin.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <!-- Section 9 Contact -->
+     <section id="redirect-contact" class="contact p-4">
+        <!-- <div class="container"> -->
+          <div class="contact-head">
+            <span class="contact-shadow">CONTACT</span>
+            <P class="contact-title">CONTACT</P>
+            <p class="contact-description">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+            </div> 
+
+            <div class=" section-8.1">
+              <div class="d-flex flex-wrap justify-content-center">
+                <div class="location col-lg-4 col-md-8 col-12 m-3">
+                  <div class="container pt-4">
+                    <!-- Location -->
+                    <div class="d-flex p-2">
+                      <div class="d-flex align-items-center">
+                        <img class="contact-logo" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\pin.png" alt="">
+                      </div>
+                      <div class="ms-3 pt-2">
+                        <h4 class="location-heads">Location:</h4>
+                        <p class="location-details">A108 Adam Street, New York, NY 535022</p>
+                      </div>
+                    </div>
+                    <!-- Email -->
+                    <div class="d-flex p-2">
+                      <div class="d-flex align-items-center">
+                        <img class="contact-logo" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\mail.png" alt="">
+                      </div>
+                      <div class="ms-3 pt-2">
+                      <h4 class="location-heads">Email:</h4>
+                      <p class="location-details">info@example.com</p>
+                      </div>
+                    </div>
+                    <!-- Call -->
+                    <div class="d-flex p-2">
+                      <div class="d-flex align-items-center">
+                        <img class="contact-logo" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\phone-call.png" alt="">
+                      </div>
+                      <div class="ms-3 pt-2">
+                        <h4 class="location-heads">Call:</h4>
+                        <p class="location-details">+1 5589 55488 55s</p>
+                      </div>
+                      </div>
+                      <div class="p-4">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen=""></iframe>
+                      </div>
+                  </div>
+                </div>
+                
+                <!-- Contact Form -->
+                  <form class="d-flex flex-column align-items-stretch col-lg-7 col-md-10 col-12 contact-form m-3">
+                    <div class="container p-5">
+                      <div class="d-flex align-items-stretch justify-content-between  flex-wrap mt-2">
+                        <div class="col-lg-5 col-md-8 col-12">
+                          <label for="inputEmail4" class="form-label name-label ">Your Name</label>
+                          <input type="text" class="form-control name" id="name">
+                        </div>
+                        <div class="col-lg-5 col-md-8 col-12">
+                          <label for="mail" class="form-label mail-label ">Your Email</label>
+                          <input type="text" class="form-control mail" id="mail-id">
+                        </div>
+                      </div>
+                      
+                      <div class="col-12 mt-2">
+                        <label for="inputAddress2" class="form-label subject-label ">Subject</label>
+                        <input type="text" class="form-control subject" id="subject">
+                      </div>
+                      <div class="d-flex flex-column mt-4">
+                        <label class="message-label" for="">Message</label>
+                        <textarea class="form-control message" name="message" rows="10" required=""></textarea>
+                      </div>
+                      
+                    
+                      <div class="mt-5 contact-button ">
+                        <button type="submit" class="btn px-4 py-2 contact-button-style">Send Message</button>
+                      </div>
+                    </div>
+                  </form>
+              </div>
+            </div>
+        <!-- </div> -->
+     </section>
+
+     <!-- Footer -->
+
+    <footer class="footer">
+      <div class="d-flex justify-content-center">
+        <div class="footer-top p-5 col-lg-8 col-12">
+          <h3 class="mt-5 foot-head">eNno</h3>
+          <p class="mt-3 foot-discription px-5 ">Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+          <div class="d-flex justify-content-center mt-5">
+            <div class="subscriber d-inline col-lg-9 col-12 d-flex justify-content-between">
+              <input class="col-lg-9 col-md-8 col-7 sub-label me-2 ps-3 " type="text" placeholder="Enter your Email">
+              <input class="col-lg-2 col-md-3 col-5 sub-button py-2" type="submit" value="Subcscribe">
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center my-5">
+            <a href=""> <img class="m-3" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\twitter.png" alt="Twitter"> </a>
+            <a href=""> <img class="m-3" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\facebook.png" alt="Facebook"> </a>
+            <a href=""> <img class="m-3" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\instagram.png" alt="Instagram"> </a>
+            <a href=""> <img class="m-3" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\skype.png" alt="Skype"> </a>
+            <a href=""> <img class="m-3" src="C:\Users\sudhir\Desktop\VS CODE FILES\.vscode\MyWorkPlace\Bootstrap\Icons\linkedin.png" alt="Linked-in"> </a>
+          </div>
+        </div>
+      </div>
+            <hr class="col-lg-12 col-md-10 col-12 container mb-4">
+            <div class="footer-bottom container d-flex justify-content-between  py-4">
+              <p class="copyright">© Copyright <strong>eNno</strong>. All Rights Reserved</p>
+              <p class="copyright">Designed by <a  class="foot-link" href="">BootstrapMade</a></p>
+            </div>
+    </footer>
+
+     <script>
+      //  Back to top
+        let mybutton = document.getElementById("back-to-top");
+
+              // When the user scrolls down 20px from the top of the document, show the button
+              window.onscroll = function () {
+                scrollFunction();
+              };
+
+              function scrollFunction() {
+                if (
+                  document.body.scrollTop > 20 ||
+                  document.documentElement.scrollTop > 20
+                ) {
+                  mybutton.style.display = "block";
+                } else {
+                  mybutton.style.display = "none";
+                }
+              }
+              // When the user clicks on the button, scroll to the top of the document
+              mybutton.addEventListener("click", backToTop);
+
+              function backToTop() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+              }
+     </script>
+</body>
+</html>
